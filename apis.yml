@@ -1,7 +1,18 @@
 aid: 410-labs
 name: 410 Labs
-description: 410 Labs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  410 Labs is a lean product studio based in Baltimore, Maryland, founded in
+  2010 by Dave Troy and Matthew Koll with the mission of helping people
+  communicate and access information in new and better ways. The company is best
+  known for Mailstrom, a web-based inbox management and email cleanup tool that
+  groups messages by sender, subject, time, and size so users can act on
+  thousands of related emails at once across Gmail, Google Workspace, Outlook,
+  Apple, AOL, Exchange, and any IMAP mail service. 410 Labs also built the Chuck
+  iPhone app for fast on-the-go email triage, and earlier products Shortmail and
+  Replyz. It is a consumer productivity software company that does not currently
+  publish a public developer API; this profile captures its public web
+  properties for the API Evangelist network. 410 Labs was surfaced as a
+  portfolio company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/410-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://mailstrom.co/assets/og-image.png
 tags:
 - Company
+- Email
+- Productivity
+- Inbox Management
+- Email Cleanup
+- Consumer Software
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/410-labs-domain-security.yml
 - type: Website
   url: https://410labs.com
+- type: Website
+  name: Mailstrom
+  url: https://mailstrom.co
+- type: Pricing
+  url: https://mailstrom.co/pricing
+- type: Login
+  url: https://mailstrom.co/login
+- type: Support
+  url: https://mailstrom.co/contact
+- type: TermsOfService
+  url: https://mailstrom.co/terms
+- type: PrivacyPolicy
+  url: https://mailstrom.co/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
